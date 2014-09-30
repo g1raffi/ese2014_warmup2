@@ -48,9 +48,9 @@
     		
     		<form:select path="teamName">
      			<c:forEach items="${teams}" var="teams">
-      			<option value="${teams.teamName}">
-      			 <c:out value="${teams.teamName}" />
-      			</option>
+      				<option value="${teams.teamName}">
+      				 	<c:out value="${teams.teamName}" />
+      				</option>
      			</c:forEach>
     		</form:select>
    		

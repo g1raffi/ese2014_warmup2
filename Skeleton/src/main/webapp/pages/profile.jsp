@@ -6,11 +6,11 @@
 
 <c:import url="template/header.jsp" />
 
+<h1>${newProfile.firstName }'s Profile</h1>
+
+
+
 <table>
-	<tr>
-		<td>User Profile Id ${newProfile.id}</td>
-		<td>
-	</td>
 	<tr>
 		<td>First Name:&nbsp;&nbsp;
 		<td>${newProfile.firstName}
